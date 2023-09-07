@@ -9,7 +9,12 @@ from  langchain.chains.combine_documents.stuff import StuffDocumentsChain
 #from langchain.prompts import ChatPromptTemplate, PromptTemplate
 import random
 
-
+openai_api_key=st.secrets["openai_api_key"] 
+OPENAI_API_KEY=st.secrets["OPENAI_API_KEY"]
+#PINECONE
+api_key=st.secrets[api_key]
+environment=st.secrets["environment"]
+index_name=st.secrets["index_name"]
        
 pinecone.init(api_key=api_key, environment=environment)
 index=pinecone.Index(index_name)    
