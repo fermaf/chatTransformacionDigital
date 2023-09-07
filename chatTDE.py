@@ -73,7 +73,7 @@ def main():
 
         # Mostrar un texto aleatorio de la lista
         st.write("---")
-        st.write(f"**Usa Sotware Libre✊!!** {random.choice(random_texts)}")
+        st.write(f"**Usa Software Libre✊!!** {random.choice(random_texts)}")
    
 def respuesta(pregunta):
     pinecone.init(api_key=api_key, environment=environment)
