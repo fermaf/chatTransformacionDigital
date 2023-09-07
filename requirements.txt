@@ -35,12 +35,6 @@ frozenlist==1.4.0
 fsspec==2023.6.0
 gitdb==4.0.10
 GitPython==3.1.32
-google-api-core==2.11.1
-google-api-python-client==2.95.0
-google-auth==2.22.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==1.0.0
-googleapis-common-protos==1.56.4
 greenlet==2.0.2
 grpc-gateway-protoc-gen-openapiv2==0.1.0
 grpcio==1.56.2
