@@ -50,7 +50,7 @@ def main():
 
     if "messages" not in st.session_state:
             help_AI = """
-                Estás a punto de chatear con una AI. No siempre tiene sentido, no siempre está en lo correcto. Pero, ¿quién lo está de todos modos? 🤷‍♂️\n
+                Estás a punto de interactuar con una AI. No siempre tiene sentido, no siempre está en lo correcto. Pero, ¿quién lo está de todos modos? 🤷‍♂️\n
                 Así que... ¡Adelante! Haz tu pregunta.\n
                 (Con amor, fdo 😵‍💫🔥)
             """
