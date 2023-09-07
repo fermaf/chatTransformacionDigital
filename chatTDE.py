@@ -22,37 +22,37 @@ index=pinecone.Index(index_name)
 
 def main():
     # Configuración de la página
-    st.set_page_config(page_title="Anarco-Jurisconsulto Digital 🤖🔥🤘📜:", layout="wide", initial_sidebar_state="expanded")
+    st.set_page_config(page_title="Jurisconsulto Digital 🤖🔥🤘📜:", layout="wide", initial_sidebar_state="expanded")
 
-    st.title("AnarcoConsultor de Transformación Digital 🤘🤖🔥")
+    st.title("Consultor de Transformación Digital 🤘🤖🔥")
 
     # Mensaje irreverente de ayuda
     
     random_texts = [
         
-"🖥️🔓 La libertad digital empieza con el código abierto. Sotware Libre",
-"🌍🤖 La descentralización es la clave para un futuro autónomo. No las monedas Digitales del BancoCentral!",
-"💸❌ El papel moneda sin control es la ilusión. Aprende sobre cómo se hace el dinero",
-"💡🔗 Las cadenas de bloques y Botcoin, el legado de S. Nakamoto.",
-"🆓💻 El software libre es el primer paso hacia una sociedad libre.",
-"🖥️🔗 La tecnología puede ser la salvación de la privacidad en la era digital.",
-"💸📈 La inflación es el impuesto silencioso, recuerda es solo una impresora",
-"🌍🔗 Una red global, descentralizada, es la respuesta a la centralización del poder.",
-"💡💸 El codigo fuente libre yace en los protocolos abiertos y viceversa",
-"🆓📜 Las licencias abiertas son las constituciones del futuro digital.",
-"💸🌐 La confianza en el dinero sin respaldo es un castillo de naipes esperando caer.",
-"🖥️🤝 Con cada línea de código abierto, damos un paso hacia un mundo más transparente.",
-"💸🔒 No es oro todo lo que reluce, pero la criptografía nos da una pista de lo que podría ser.",
-"💸❌ Las máquinas de imprimir dinero son la verdadera raíz de muchas crisis económicas.",
-"🖥️💡 El software libre no es simplemente código, es una declaración política.",
-"💸🔄 La revolución no será televisada, será codificada y descentralizada."
+"(🖥️🔓 La libertad digital empieza con el código abierto. Sotware Libre)",
+"(🌍🤖 La descentralización es la clave para un futuro autónomo. No las monedas Digitales del BancoCentral!)",
+"(💸❌ El papel moneda sin control es la ilusión. Aprende sobre cómo se hace el dinero)",
+"(💡🔗 Las cadenas de bloques y Botcoin, el legado de S. Nakamoto.)",
+"(🆓💻 El software libre es el primer paso hacia una sociedad libre.)",
+"(🖥️🔗 La tecnología puede ser la salvación de la privacidad en la era digital.)",
+"(💸📈 La inflación es el impuesto silencioso, recuerda es solo una impresora.)",
+"(🌍🔗 Una red global, descentralizada, es la respuesta a la centralización del poder.)",
+"(💡💸 El codigo fuente libre yace en los protocolos abiertos y viceversa.)",
+"(🆓📜 Las licencias abiertas son las constituciones del futuro digital.)",
+"(💸🌐 La confianza en el dinero sin respaldo es un castillo de naipes esperando caer.)",
+"(🖥️🤝 Con cada línea de código abierto, damos un paso hacia un mundo más transparente.)",
+"(💸🔒 No es oro todo lo que reluce, pero la criptografía nos da una pista de lo que podría ser.)",
+"(💸❌ Las máquinas de imprimir dinero son la verdadera raíz de muchas crisis económicas.)",
+"(🖥️💡 El software libre no es simplemente código, es una declaración política.)",
+"(💸🔄 La revolución no será televisada, será codificada y descentralizada.)"
     ]
 
     if "messages" not in st.session_state:
             help_AI = """
                 Estás a punto de chatear con una AI. No siempre tiene sentido, no siempre está en lo correcto. Pero, ¿quién lo está de todos modos? 🤷‍♂️\n
                 Así que... ¡Adelante! Haz tu pregunta.\n
-                Con amor, fdo 😵‍💫🔥
+                (Con amor, fdo 😵‍💫🔥)
             """
             st.warning(help_AI)
             st.session_state.messages = "advertido"
