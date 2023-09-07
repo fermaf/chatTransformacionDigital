@@ -80,10 +80,11 @@ def respuesta(pregunta):
     embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
     busqueda = Pinecone.from_existing_index(index_name, embeddings)
     from langchain.prompts import PromptTemplate
-    prompt_template = """Utiliza exclusivamente el siguiente contexto para responder la pregunta de abajo. Si no sabes la respuesta, solo di "No sé", no inventes información.
+    prompt_template = """Utiliza exclusivamente el siguiente contexto para responder la pregunta de abajo. 
+    Si no sabes la respuesta, sólo di "No lo sé", no inventes nada.
     {context}
 
-    Question: {question}
+    Pregunta: {question}
     """
 
     PROMPT = PromptTemplate(
