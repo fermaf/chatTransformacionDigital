@@ -30,22 +30,22 @@ def main():
     
     random_texts = [
         
-"(🖥️🔓 La libertad digital empieza con el código abierto. Sotware Libre)",
+"(🖥️🔓 La libertad digital empieza con el código abierto. Sotware Libre.)",
 "(🌍🤖 La descentralización es la clave para un futuro autónomo. No las monedas Digitales del BancoCentral!)",
 "(💸❌ El papel moneda sin control es la ilusión. Aprende sobre cómo se hace el dinero)",
 "(💡🔗 Las cadenas de bloques y Botcoin, el legado de S. Nakamoto.)",
 "(🆓💻 El software libre es el primer paso hacia una sociedad libre.)",
 "(🖥️🔗 La tecnología puede ser la salvación de la privacidad en la era digital.)",
-"(💸📈 La inflación es el impuesto silencioso, recuerda es solo una impresora.)",
+"(💸📈 La inflación es el impuesto silencioso, recuerda es una impresora, sin control la que hace el dinero.)",
 "(🌍🔗 Una red global, descentralizada, es la respuesta a la centralización del poder.)",
-"(💡💸 El codigo fuente libre yace en los protocolos abiertos y viceversa.)",
+"(💡💸 El código fuente libre yace en los protocolos abiertos y viceversa.)",
 "(🆓📜 Las licencias abiertas son las constituciones del futuro digital.)",
-"(💸🌐 La confianza en el dinero sin respaldo es un castillo de naipes esperando caer.)",
+"(💸🌐 La confianza en el dinero, sin respaldo, es un castillo de naipes esperando caer.)",
 "(🖥️🤝 Con cada línea de código abierto, damos un paso hacia un mundo más transparente.)",
 "(💸🔒 No es oro todo lo que reluce, pero la criptografía nos da una pista de lo que podría ser.)",
 "(💸❌ Las máquinas de imprimir dinero son la verdadera raíz de muchas crisis económicas.)",
-"(🖥️💡 El software libre no es simplemente código, es una declaración política.)",
-"(💸🔄 La revolución no será televisada, será codificada y descentralizada.)"
+"(🖥️💡 El software libre no es simplemente código, es una declaración política de libertad.)",
+"(💸🔄 La revolución no será televisada, será codificada y descentralizada.DAOs)"
     ]
 
     if "messages" not in st.session_state:
