@@ -1,5 +1,5 @@
 import streamlit as st
-from  datos.clavesAPI import openai_api_key, api_key, environment
+#from  datos.clavesAPI import openai_api_key, api_key, environment
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain import OpenAI
 from langchain.vectorstores import  Pinecone
